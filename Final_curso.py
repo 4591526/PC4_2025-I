@@ -79,12 +79,15 @@ st.markdown("<h2 style='text-align: center;'>Un breve mensaje para ustedes 💻<
 
 # Agregar un  texto para la respuesta
 texto_2 = """
-Ha sido muy grato ser su jefa de prácticas este semestre. Fueron un grupo muy diverso, en su mayoría entusiastas y comprometidos.
-Al igual que yo dicté las clases también aprendí de ustedes resolviendo sus dudas e indagando sobre sus intereses. 
-El mejor consejo que les puedo brindar es siempre no quedarse con las dudas y organizar sus tiempos para evitar procrastinar. 
-Finalmente, no se olviden de disfrutar el proceso de aprendizaje y de celebrar cada uno de sus logros, por pequeños que parezcan.
-Caer, equivocarse, errar es parte del camino. Pero nada de eso define el resultado final. 
+Ha sido muy grato ser su jefa de prácticas este semestre. Fueron un grupo muy diverso, en su mayoría entusiasta y comprometido.
+Gracias por tomarse el tiempo de dejar comentarios en la encuesta docente. Leerlos me sacó sonrisas y también me permite seguir creciendo.
+Me alegra haber contribuido a su aprendizaje y que se hayan sentido acompañados en el proceso.
+Al igual que yo dicté las clases, también aprendí de ustedes al resolver sus dudas e indagar en sus intereses.
+El mejor consejo que puedo darles es que no se queden con las dudas y que organicen sus tiempos para evitar la procrastinación.
+No se olviden de disfrutar el proceso de aprendizaje y de celebrar cada uno de sus logros, por pequeños que parezcan.
+Caer, equivocarse y errar son parte del camino, pero nada de eso define el resultado final.
 El verdadero reto está en levantarse y aprender de cada error.
+Les deseo lo mejor en lo que viene. Sigan confiando en sus capacidades.
 """
 
 # Mostramos el texto
