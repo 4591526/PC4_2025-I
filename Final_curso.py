@@ -338,7 +338,7 @@ if codigo:
 ## Proyectos finales
 st.markdown("<h2 style='text-align: center;'> 🖥️ Proyectos finales 💻 </h2>", unsafe_allow_html=True)
 
-proyetos = [
+proyectos = [
     {"titulo": "Soundmood", "url": "https://soundmood-h2ir2vipiseuvaqcjdvett.streamlit.app"},
     {"titulo": "Ecos del Perú", "url": "https://ecosdelperu.streamlit.app"},
     {"titulo": "Fonkilla: ¿Dónde comer en PUCP?", "url": "https://trabajo-final-pensamiento.streamlit.app"},
