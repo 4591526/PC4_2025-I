@@ -335,7 +335,27 @@ if codigo:
     else:
         st.write("Código incorrecto")
 
+## Proyectos finales
+st.markdown("<h2 style='text-align: center;'> 🖥️ Proyectos finales 💻 </h2>", unsafe_allow_html=True)
 
+proyetos = [
+    {"titulo": "Soundmood", "url": "https://soundmood-h2ir2vipiseuvaqcjdvett.streamlit.app"},
+    {"titulo": "Ecos del Perú", "url": "https://ecosdelperu.streamlit.app"},
+    {"titulo": "Fonkilla: ¿Dónde comer en PUCP?", "url": "https://trabajo-final-pensamiento.streamlit.app"},
+    {"titulo": "ANATOMÍA DE UN ÍCONO: Explorando la discografía de Taylor Swift", "url": "https://discografia-taylor-swift.streamlit.app"},
+    {"titulo": "Descubre tu match musical entre María Becerra y Taylor Swift", "url": "https://descubre-tu-match-musical-entre-maria-becerra-y-taylor-swift.streamlit.app"},
+    {"titulo": "Bits & Beats: Análisis de usuarios Spotify 2023", "url": "https://bitsandbeats.streamlit.app/"},
+    {"titulo": "Escena Cero", "url": "https://escena-cero.streamlit.app"},
+    {"titulo": "¿No son 24 demasiadas?: La desigualdad de contenido entre las 24 integrantes del grupo tripleS. Un análisis de datos sobre su primer año como grupo completo.", "url": "https://triples24mediaanalysis.streamlit.app"},
+    {"titulo": "Buscador de Chocolates", "url": "https://quierescomerchocolateaaaaa.streamlit.app"},
+    {"titulo": "¡Hola Aitaner!", "url": "https://hola-aitaner.streamlit.app"},
+    {"titulo": "Portal de Transparencia Electoral 2026", "url": "https://bajolalupa.streamlit.app"},
+    {"titulo": "Zona Gamer", "url": "https://zonagamer.streamlit.app"},
+    {"titulo": "Análisis Epidemiológico de Piura", "https://emersonfinal.streamlit.app"},
+]
+
+for i, post in enumerate(proyectos, start=1):
+    st.markdown(f"{i}. [{post['titulo']}]({post['url']})")
 
 # Agregamos un subtítulo en la barra lateral
 sidebar.markdown("<h1 style='text-align: center;'>Enlaces importantes</h1>", unsafe_allow_html=True)
