@@ -351,7 +351,7 @@ proyetos = [
     {"titulo": "¡Hola Aitaner!", "url": "https://hola-aitaner.streamlit.app"},
     {"titulo": "Portal de Transparencia Electoral 2026", "url": "https://bajolalupa.streamlit.app"},
     {"titulo": "Zona Gamer", "url": "https://zonagamer.streamlit.app"},
-    {"titulo": "Análisis Epidemiológico de Piura", "https://emersonfinal.streamlit.app"},
+    {"titulo": "Análisis Epidemiológico de Piura", "url": "https://emersonfinal.streamlit.app"},
 ]
 
 for i, post in enumerate(proyectos, start=1):
